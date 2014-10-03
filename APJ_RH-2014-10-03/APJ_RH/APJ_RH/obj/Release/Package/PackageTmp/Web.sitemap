@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="~/About.aspx" font ="hp simplified" title="Home"  description="Home">
+    <siteMapNode url="~/About.aspx?1" font ="hp simplified" title="Main Menu"  description="Main Menu" >
+      <siteMapNode url="~/APJ_Payments/Test.aspx" font ="hp simplified" title="Template Upload"  description="Template Upload" />
+      <!--<siteMapNode url="~/APJ_Payments/Test.aspx" font ="hp simplified" title="Claim processing"  description="Claim processing" />-->
+
+      <siteMapNode url="~/NonComp/EditVendorDetails.aspx" font ="hp simplified" title="Edit Vendor Details"  description="Edit Vendor Details" />
+      <siteMapNode url="~/NonComp/Query.aspx" font ="hp simplified" title="Query"  description="Query" />
+    </siteMapNode>
+    <siteMapNode url="~/About.aspx?#" font ="hp simplified" title="Maintenance Menu"  description="Maintenance Menu" >
+      <siteMapNode url="~/NonComp/EditCountryDetails.aspx" font ="hp simplified" title="Edit Country Details"  description="Edit Country Details" />
+      <siteMapNode url="~/NonComp/BatchFileEditor.aspx" font ="hp simplified" title="Batch File Editor"  description="Batch File Editor" />
+
+      <siteMapNode url="~/NonComp/AdvancedDatabaseEditor.aspx" font ="hp simplified" title="Advance Database Editor"  description="Advance Database Editor" />
+
+    </siteMapNode>
+  </siteMapNode>
+  
+</siteMap>

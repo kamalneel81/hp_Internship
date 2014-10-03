@@ -1,0 +1,10 @@
+C:\APJ_RH_Project\APJ_RH\APJ_RH\bin\APJ_RH.dll
+C:\APJ_RH_Project\APJ_RH\APJ_RH\bin\APJ_RH.pdb
+C:\APJ_RH_Project\APJ_RH\APJ_RH\bin\DocumentFormat.OpenXml.dll
+C:\APJ_RH_Project\APJ_RH\APJ_RH\bin\NonComp.dll
+C:\APJ_RH_Project\APJ_RH\APJ_RH\bin\Aspose.Email.dll
+C:\APJ_RH_Project\APJ_RH\APJ_RH\bin\NonComp.pdb
+C:\APJ_RH_Project\APJ_RH\APJ_RH\bin\Aspose.Email.xml
+C:\APJ_RH_Project\APJ_RH\APJ_RH\obj\Release\APJ_RH.csproj.ResolveComReference.cache
+C:\APJ_RH_Project\APJ_RH\APJ_RH\obj\Release\APJ_RH.dll
+C:\APJ_RH_Project\APJ_RH\APJ_RH\obj\Release\APJ_RH.pdb

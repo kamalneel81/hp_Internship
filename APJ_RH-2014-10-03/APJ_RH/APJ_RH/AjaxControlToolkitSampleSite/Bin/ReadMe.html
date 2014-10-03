@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html> 
+<head><title>AJAX Control Toolkit Read Me</title> 
+<style type="text/css"> 
+  body {
+    font-family: Arial;
+  }
+ 
+  li {
+    margin-bottom: 15px;
+  }
+  
+  #main {
+    margin:auto;
+    width: 800px;   
+  }
+</style> 
+</head>
+<body> 
+ 
+
+<div id="main">
+
+<h1>AJAX Control Toolkit &mdash; September 2013 Release (Updated)</h1> 
+
+    <div style="background-color:#eeeeee;border:solid 2px black;padding:10px;font-weight:bold">
+        This release has been updated to fix the following three issues:
+        <ul>
+            <li>
+                Update to prevent a conflict between the Ajax Control Toolkit and jQuery/jQuery UI.
+            </li>
+            <li>
+                Update to the ToolkitScriptManager to prevent
+                an error that resulted from concurrency conflicts on high traffic websites.
+                If you are getting the error message "Could not load control [control name].
+                The script reference(s) of this control was not loaded correctly." then
+                please install this update.
+            </li>
+            <li>
+                Update to the ToolkitScriptManager to prevent
+                a pageLoaded error in Firefox when using the new jQueryExtender base class.
+            </li>
+        </ul>
+
+        The assembly version of the updated release is x.x.x.1005. Right-click on the 
+        AjaxControlToolkit.dll, select Properties, and look at the Details tab to view the assembly version.
+
+    </div>
+
+<p> 
+This release of the Ajax Control Toolkit introduces a new jQueryExtender base class
+    and contains a new version of the ToggleButton control completely rewritten in jQuery.
+</p>
+<ul>
+<li>
+    <p>
+    jQueryExtender - Use the new jQueryExtender base class to create new Ajax Control
+        Toolkit controls using jQuery.  
+    </p>
+</li>
+<li>
+    <p>
+    ToggleButton Control - Rewritten using pure jQuery. 
+    </p>
+</li>
+<li>
+    <p>
+       Twitter Control - Completely rewritten to use the new Twitter API.
+    </p>
+</li>
+<li>
+    <p>
+        ToolkitScriptManager - Fixed issue concerning errors when used in Medium Trust.
+    </p>
+</li>
+<li>
+    <p>
+        AjaxFileUpload - Fixed issue concerning ampersands in file names (issue 27476).
+    </p>
+</li> 
+</ul>
+ 
+
+<h2>What's in the Download</h2> 
+ 
+<p> 
+This AJAX Control Toolkit download contains the AjaxControlToolkit.dll assembly, localized resource files, and
+the Ajax Control Toolkit Sample Site. Follow the instructions below to add the AJAX Control Toolkit to the Visual Studio Toolbox.
+</p> 
+
+<blockquote> 
+  <a href="http://www.asp.net/ajaxlibrary/act.ashx">http://www.asp.net/ajaxlibrary/act.ashx</a> 
+</blockquote> 
+
+<p> 
+You can download the source code for the Ajax Control Toolkit from CodePlex:
+</p>
+
+<blockquote>
+  <a href="http://ajaxcontroltoolkit.codeplex.com/SourceControl/list/changesets">http://AjaxControlToolkit.CodePlex.com</a> 
+</blockquote>
+
+ 
+ <b><i>
+ Note: When opening the Ajax Control Toolkit solution in Visual Studio 2008, you will receive
+ a security warning because the Ajax Control Toolkit project files have been modified to
+ use the Microsoft Ajax Minifier. Select the option to Load the Project Normally. 
+ </i></b>
+
+<h2>Reporting Issues</h2> 
+ 
+<p> 
+Please report any issues that you discover with the Ajax Control Toolkit at the Ajax Control Toolkit issue tracker:
+</p> 
+
+<blockquote>
+  <a href="http://ajaxcontroltoolkit.codeplex.com/workitem/list/basic">http://ajaxcontroltoolkit.codeplex.com/workitem/list/basic</a> 
+</blockquote>
+ 
+ 
+ 
+ 
+<h2>Learn More</h2> 
+ 
+<p> 
+The ASP.NET Ajax website contains tutorials, videos, and sample code to help you learn how to use the AJAX Control Toolkit: 
+</p> 
+ 
+<blockquote> 
+  <a href="http://www.asp.net/ajax">http://www.ASP.net/ajax</a> 
+</blockquote> 
+ 
+
+ </div>
+
+</body> 
+</html>
